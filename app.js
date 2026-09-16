@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{for(const id of ['login','register']){const f=document.getElementById(id);if(f)f.addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent='Interface prête. Connexion réelle à Supabase à l’étape suivante.'})}});
